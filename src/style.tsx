@@ -1,12 +1,13 @@
 /*[object Object]*/
-import styled from 'styled-components';
+import styled from "styled-components";
 
-import { Transformation } from './types';
+import { Transformation } from "./types";
 
 const getTranslation = ({ translation: { x, y, z } }: Transformation) =>
-  `translate3d(${x}px, ${y}px, ${z}px) `;
+  `translate3d(${x}vw, ${y}vh, ${z}vh) `;
 
-const getScale = ({ scale: { x, y, z } }: Transformation) => `scale3d(${x}, ${y}, ${z}) `;
+const getScale = ({ scale: { x, y, z } }: Transformation) =>
+  `scale3d(${x}, ${y}, ${z}) `;
 
 const getRotation = ({ rotation: { x, y, z } }: Transformation) =>
   `rotateZ(${z}deg) rotateY(${y}deg) rotateX(${x}deg) `;
