@@ -1,6 +1,11 @@
 {
   "name": "@labbealexandre/alive-resume",
   "version": "1.0.0",
+  "description": "Create your own alive resume.",
+  "repository": {
+    "url": "https://github.com/labbealexandre/alive-resume",
+    "type": "git"
+  },
   "main": "build/index.js",
   "module": "build/index.es.js",
   "jsnext:main": "build/index.es.js",
